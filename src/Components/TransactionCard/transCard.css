@@ -1,0 +1,48 @@
+.transCardRow
+{
+    display: grid;
+    grid-template-rows: 20vh;
+    background-color: slateblue;
+    grid-template-columns: repeat(5,20fr);
+    grid-template-areas: 'descriptionRow amountRow transactionTypeRow EditRow DeleteRow';
+
+}
+.descriptionRow
+{
+    grid-area: descriptionRow;
+    background: white;
+
+}
+.amountRow
+{
+    grid-area: amountRow;
+    background: white;
+    
+}
+
+.formInputButton
+{
+    height: 2rem;
+    width: 8rem;
+
+
+}
+
+.transactionTypeRow
+{
+    background: white;
+    
+    grid-area: transactionTypeRow;
+}
+.EditRow
+{
+    background: white;
+    
+    grid-area: EditRow;
+}
+.DeleteRow
+{
+    background: white;
+    
+    grid-area: DeleteRow;
+}

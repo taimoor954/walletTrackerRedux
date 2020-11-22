@@ -1,0 +1,52 @@
+.FormRow{
+    background-color: rgb(211, 214, 23);
+    display: grid;
+    grid-template-rows: 20vh;
+
+}
+.FormFields
+{
+display: grid;
+grid-template-rows: 20vh;
+grid-template-columns: 25fr 25fr 25fr 25fr;
+grid-template-areas: "descriptionRow amountRow transTypeRow buttonAdd";
+}
+.descriptionRow
+{
+    grid-area: descriptionRow;
+    background-color:red ;
+}
+.amountRow
+{
+    grid-area: amountRow;
+    background-color: rgb(121, 66, 60);
+}
+.transTypeRow
+{
+    grid-area: transTypeRow;
+    background-color: white;
+}
+.buttonAdd
+{
+    grid-area: buttonAdd;
+    background-color: white;
+}
+.formInput{
+    height: 2rem;
+    width: 12rem;
+}
+
+.formInputButton
+{
+    height: 2rem;
+    width: 8rem;
+
+
+}
+
+.flex
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

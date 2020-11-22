@@ -1,0 +1,26 @@
+.Header{
+    display: grid;
+    grid-template-rows: 20vh;
+    grid-template-columns: 50fr 50fr;
+    grid-template-areas: "logoCol Amount";
+}
+.logoCol
+{
+    grid-area: logoCol;
+    background-color: rgb(29, 122, 126);
+}
+.AmountCol
+{
+    grid-area: Amount;
+    background-color: rgb(29, 122, 126);
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.logoCol > h1 
+{
+    margin-left: 2rem;
+}
+.AmountCol > h1{
+    margin-right: 2rem;
+}
